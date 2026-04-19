@@ -30,7 +30,7 @@ export const Hero = () => {
 
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-primary-foreground leading-[1.05] max-w-5xl mx-auto animate-fade-in-up">
           Impulsamos tu negocio con{" "}
-          <span className="bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-emerald-200 to-white bg-clip-text text-transparent">
             estrategia y tecnología
           </span>
         </h1>
