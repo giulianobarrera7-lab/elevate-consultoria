@@ -143,15 +143,15 @@ const Mockup = ({
           {type === "dashboard" && (
             <>
               <div className="grid grid-cols-3 gap-2">
-                <div className="h-8 rounded bg-blue-100" />
                 <div className="h-8 rounded bg-emerald-100" />
-                <div className="h-8 rounded bg-amber-100" />
+                <div className="h-8 rounded bg-teal-100" />
+                <div className="h-8 rounded bg-lime-100" />
               </div>
               <div className="mt-3 flex h-14 items-end gap-1.5">
                 {[40, 70, 50, 85, 60, 95, 75].map((h, i) => (
                   <div
                     key={i}
-                    className="flex-1 rounded-t bg-gradient-to-t from-blue-500 to-blue-300"
+                    className="flex-1 rounded-t bg-gradient-to-t from-emerald-500 to-emerald-300"
                     style={{ height: `${h}%` }}
                   />
                 ))}
